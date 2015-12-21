@@ -1,0 +1,110 @@
+user:billkwai (Kwai, Bill)
+
+
+My final project is called Schedule Sharer!
+
+The goal I had for this project was for it to be an app where people who had the app could
+share their schedules with each other. This way, people could update their own profiles (
+i.e. when their busy), so that their friends would know when they were available and could
+make plans to meet up and hang out. Unfortunately, I couldn't get any of the backend working
+( :'( I'm looking at you Parse), so my project became much different.
+
+This project eventually evolved into a glorified contacts list. The user can add new contact
+entries or import them from their contact book. For each contact, the user can also take
+a new photo or use a photo from their photo library. In addition, each photo can be modified
+in the app making use of Core Image. The key feature of this app is the functionality to
+add schedule blocks (which are start and end time where each contact is busy). The app
+can filter which contacts are currently busy as well as send the user push notifications when
+a currently busy contact becomes available again.
+
+This app was designed for use on iPhones and iPads only.
+Note: this app is intended for use in portrait orientation only. All other orientations are
+disabled because it makes sense in the layout of the UI to only have it this way. Since most
+of the data is short and includes many fields, having it in portrait orientation ensures that
+all the data can fit on the page without needing to scroll. In Landscape orientations, there
+is a lot of unncessary and ugly whitespace.
+
+
+The following are the features I implemented followed by the point values associated with them:
+
+
+Breadth: 
+-CGImage to assist in image cropping : 1
+-UIPickerController/UIDatePickerController to select dates for ScheduleBlocks: 1 (NCIL)
+-UISearchBarDelegate for searching all contacts: 1 (NCIL)
+-Core Image to modify Contact photos with UIControls to apply various filters: 1 (NCIL) + (Depth)
+-UIView with drawRect, CG functions, UIView Drawing API for various image manipulation : 1
+-UICollectionView to show all Contacts : 1
+-UINavigation/TabBar/Storyboard Design API : 1
+-Label, Button, TextFields, Sliders, additional point for breadth for subclassing UIButton : 1 (Depth)
+-Autolayout : 1
+-Core Data : 1
+-Camera, Photo Library, UIImagePickerController : 1
+-UIGesture for UITapGesture when touching images : 1
+-Unwind/Modal Segue which was used multiple times: 1
+-UIAlert : 1
+-Contacts Kit used to import Contacts : 1 (NCIL)
+-NSDate : 1
+-UITableView/Controller/Cell : 1
+-UIPageViewController for slideshow : 1 (NCIL)
+-NSTimer to auto scroll through slideshow : 1 (NCIL)
+-UIPopoverPresentationController, Popover Segue for photo library or new photo options : 1
+-UILocalNotification/Push Notification : 1 (NCIL)
+
+Total: 21
+
+
+Depth:
+Look above for categories I wrote (Depth) next to score
+
+Total: 2
+
+
+Not Covered in Lecture:
+Look above for categories I wrote (NCIL) next to score
+
+Total: 4
+
+
+Misc API:
+-Setting Global Tints / Giving App a theme
+-Giving app an AppIcon
+-Using thead dispatcher in suitable places
+-Customized tab bar image
+-Good use of controls
+
+Total: 4
+
+
+Creativity:
+Had a great idea to start with, but ended up doing something as close as I could.
+Still, I think it's a pretty unique and creative idea.
+
+Total: 2
+
+
+UI Design:
+Not bad. Definitely gave it a lot of thought and tried making it look nice with
+autolayout and giving it a theme.
+
+Total: 2
+
+
+Coding Style:
+Pretty neat and organized code. Commented everything, named files, classes, and
+variables appropriately. Grouped classes that were similar in function together.
+Added a lot of code.
+
+Total: 3
+
+
+Stability and Usability:
+Hasn't crashed on me while I've tested it so far. Seems good to me!
+
+Total: 2
+
+
+
+SELF ASSESSED GRAND TOTAL: 40
+
+

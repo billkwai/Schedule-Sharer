@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6509A6F01C11981600ECB788 /* ScheduleBlock+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509A6EC1C11981600ECB788 /* ScheduleBlock+CoreDataProperties.swift */; };
+		6509A6F11C11981600ECB788 /* ScheduleBlock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509A6ED1C11981600ECB788 /* ScheduleBlock.swift */; };
+		6509A6F21C11981600ECB788 /* Contact+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509A6EE1C11981600ECB788 /* Contact+CoreDataProperties.swift */; };
+		6509A6F31C11981600ECB788 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509A6EF1C11981600ECB788 /* Contact.swift */; };
+		6509A6F51C11A27700ECB788 /* AddScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6509A6F41C11A27700ECB788 /* AddScheduleViewController.swift */; };
+		651CAAC41C16833900EBCF4B /* AvailableContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 651CAAC31C16833900EBCF4B /* AvailableContactsTableViewController.swift */; };
+		65C47FE51C11112000500128 /* CustomizePhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C47FE41C11112000500128 /* CustomizePhotoViewController.swift */; };
+		65C47FE71C11174B00500128 /* CheckBoxUIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65C47FE61C11174B00500128 /* CheckBoxUIButton.swift */; };
+		65D2F4021C0E11640098BDCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2F4011C0E11640098BDCB /* AppDelegate.swift */; };
+		65D2F4071C0E11640098BDCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D2F4051C0E11640098BDCB /* Main.storyboard */; };
+		65D2F40A1C0E11640098BDCB /* ScheduleSharer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 65D2F4081C0E11640098BDCB /* ScheduleSharer.xcdatamodeld */; };
+		65D2F40C1C0E11640098BDCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 65D2F40B1C0E11640098BDCB /* Assets.xcassets */; };
+		65D2F40F1C0E11640098BDCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65D2F40D1C0E11640098BDCB /* LaunchScreen.storyboard */; };
+		65D2F41C1C0E1FA50098BDCB /* NewContactViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2F41B1C0E1FA50098BDCB /* NewContactViewController.swift */; };
+		65D2F41E1C0E49150098BDCB /* ContactListCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2F41D1C0E49150098BDCB /* ContactListCollectionViewController.swift */; };
+		65D2F4211C0EDEAA0098BDCB /* ContactPhotoViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D2F4201C0EDEAA0098BDCB /* ContactPhotoViewCell.swift */; };
+		65D523041C16D4D8001481E3 /* SlideShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D523031C16D4D8001481E3 /* SlideShowViewController.swift */; };
+		65D523061C16DA38001481E3 /* SlideShowPageContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D523051C16DA38001481E3 /* SlideShowPageContentViewController.swift */; };
+		65D523081C177ACC001481E3 /* LibaryCameraOptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D523071C177ACC001481E3 /* LibaryCameraOptionViewController.swift */; };
+		65D5230A1C17A302001481E3 /* ScheduleTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D523091C17A302001481E3 /* ScheduleTableViewController.swift */; };
+		65D6F0BA1C0FB922007FC318 /* ContactInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65D6F0B91C0FB922007FC318 /* ContactInfoViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6509A6EC1C11981600ECB788 /* ScheduleBlock+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScheduleBlock+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6509A6ED1C11981600ECB788 /* ScheduleBlock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleBlock.swift; sourceTree = "<group>"; };
+		6509A6EE1C11981600ECB788 /* Contact+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Contact+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		6509A6EF1C11981600ECB788 /* Contact.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		6509A6F41C11A27700ECB788 /* AddScheduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddScheduleViewController.swift; sourceTree = "<group>"; };
+		651CAAC31C16833900EBCF4B /* AvailableContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailableContactsTableViewController.swift; sourceTree = "<group>"; };
+		65C47FE41C11112000500128 /* CustomizePhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizePhotoViewController.swift; sourceTree = "<group>"; };
+		65C47FE61C11174B00500128 /* CheckBoxUIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckBoxUIButton.swift; sourceTree = "<group>"; };
+		65D2F3FE1C0E11640098BDCB /* Schedule Sharer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Schedule Sharer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D2F4011C0E11640098BDCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		65D2F4061C0E11640098BDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		65D2F4091C0E11640098BDCB /* ScheduleSharer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ScheduleSharer.xcdatamodel; sourceTree = "<group>"; };
+		65D2F40B1C0E11640098BDCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		65D2F40E1C0E11640098BDCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		65D2F4101C0E11640098BDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		65D2F41B1C0E1FA50098BDCB /* NewContactViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewContactViewController.swift; sourceTree = "<group>"; };
+		65D2F41D1C0E49150098BDCB /* ContactListCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactListCollectionViewController.swift; sourceTree = "<group>"; };
+		65D2F4201C0EDEAA0098BDCB /* ContactPhotoViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactPhotoViewCell.swift; sourceTree = "<group>"; };
+		65D523031C16D4D8001481E3 /* SlideShowViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideShowViewController.swift; sourceTree = "<group>"; };
+		65D523051C16DA38001481E3 /* SlideShowPageContentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideShowPageContentViewController.swift; sourceTree = "<group>"; };
+		65D523071C177ACC001481E3 /* LibaryCameraOptionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LibaryCameraOptionViewController.swift; sourceTree = "<group>"; };
+		65D523091C17A302001481E3 /* ScheduleTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewController.swift; sourceTree = "<group>"; };
+		65D6F0B91C0FB922007FC318 /* ContactInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactInfoViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		65D2F3FB1C0E11640098BDCB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		65D2F3F51C0E11640098BDCB = {
+			isa = PBXGroup;
+			children = (
+				65D2F4001C0E11640098BDCB /* ScheduleSharer */,
+				65D2F3FF1C0E11640098BDCB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		65D2F3FF1C0E11640098BDCB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				65D2F3FE1C0E11640098BDCB /* Schedule Sharer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		65D2F4001C0E11640098BDCB /* ScheduleSharer */ = {
+			isa = PBXGroup;
+			children = (
+				65D2F41F1C0E49250098BDCB /* Supporting Files */,
+				65D2F4051C0E11640098BDCB /* Main.storyboard */,
+				65D523091C17A302001481E3 /* ScheduleTableViewController.swift */,
+				65D5230C1C17A5DB001481E3 /* New Contact */,
+				65D5230E1C17A609001481E3 /* Available Contacts */,
+				65D5230D1C17A5FC001481E3 /* Contact Info */,
+				65D5230F1C17A663001481E3 /* Contact List */,
+				65D2F4161C0E13080098BDCB /* Core Data */,
+			);
+			path = ScheduleSharer;
+			sourceTree = "<group>";
+		};
+		65D2F4161C0E13080098BDCB /* Core Data */ = {
+			isa = PBXGroup;
+			children = (
+				6509A6EC1C11981600ECB788 /* ScheduleBlock+CoreDataProperties.swift */,
+				6509A6ED1C11981600ECB788 /* ScheduleBlock.swift */,
+				6509A6EE1C11981600ECB788 /* Contact+CoreDataProperties.swift */,
+				6509A6EF1C11981600ECB788 /* Contact.swift */,
+				65D2F4081C0E11640098BDCB /* ScheduleSharer.xcdatamodeld */,
+			);
+			name = "Core Data";
+			sourceTree = "<group>";
+		};
+		65D2F41F1C0E49250098BDCB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				65D2F4011C0E11640098BDCB /* AppDelegate.swift */,
+				65D2F40B1C0E11640098BDCB /* Assets.xcassets */,
+				65D2F40D1C0E11640098BDCB /* LaunchScreen.storyboard */,
+				65D2F4101C0E11640098BDCB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		65D5230C1C17A5DB001481E3 /* New Contact */ = {
+			isa = PBXGroup;
+			children = (
+				65D523071C177ACC001481E3 /* LibaryCameraOptionViewController.swift */,
+				65D2F41B1C0E1FA50098BDCB /* NewContactViewController.swift */,
+			);
+			name = "New Contact";
+			sourceTree = "<group>";
+		};
+		65D5230D1C17A5FC001481E3 /* Contact Info */ = {
+			isa = PBXGroup;
+			children = (
+				6509A6F41C11A27700ECB788 /* AddScheduleViewController.swift */,
+				65C47FE61C11174B00500128 /* CheckBoxUIButton.swift */,
+				65D6F0B91C0FB922007FC318 /* ContactInfoViewController.swift */,
+				65C47FE41C11112000500128 /* CustomizePhotoViewController.swift */,
+			);
+			name = "Contact Info";
+			sourceTree = "<group>";
+		};
+		65D5230E1C17A609001481E3 /* Available Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				65D523031C16D4D8001481E3 /* SlideShowViewController.swift */,
+				65D523051C16DA38001481E3 /* SlideShowPageContentViewController.swift */,
+				651CAAC31C16833900EBCF4B /* AvailableContactsTableViewController.swift */,
+			);
+			name = "Available Contacts";
+			sourceTree = "<group>";
+		};
+		65D5230F1C17A663001481E3 /* Contact List */ = {
+			isa = PBXGroup;
+			children = (
+				65D2F4201C0EDEAA0098BDCB /* ContactPhotoViewCell.swift */,
+				65D2F41D1C0E49150098BDCB /* ContactListCollectionViewController.swift */,
+			);
+			name = "Contact List";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		65D2F3FD1C0E11640098BDCB /* Schedule Sharer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 65D2F4131C0E11640098BDCB /* Build configuration list for PBXNativeTarget "Schedule Sharer" */;
+			buildPhases = (
+				65D2F3FA1C0E11640098BDCB /* Sources */,
+				65D2F3FB1C0E11640098BDCB /* Frameworks */,
+				65D2F3FC1C0E11640098BDCB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Schedule Sharer";
+			productName = ScheduleSharer;
+			productReference = 65D2F3FE1C0E11640098BDCB /* Schedule Sharer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		65D2F3F61C0E11640098BDCB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Bill Kwai";
+				TargetAttributes = {
+					65D2F3FD1C0E11640098BDCB = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 9H3L6WA93F;
+					};
+				};
+			};
+			buildConfigurationList = 65D2F3F91C0E11640098BDCB /* Build configuration list for PBXProject "Schedule Sharer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 65D2F3F51C0E11640098BDCB;
+			productRefGroup = 65D2F3FF1C0E11640098BDCB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				65D2F3FD1C0E11640098BDCB /* Schedule Sharer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		65D2F3FC1C0E11640098BDCB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D2F40F1C0E11640098BDCB /* LaunchScreen.storyboard in Resources */,
+				65D2F40C1C0E11640098BDCB /* Assets.xcassets in Resources */,
+				65D2F4071C0E11640098BDCB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		65D2F3FA1C0E11640098BDCB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65D5230A1C17A302001481E3 /* ScheduleTableViewController.swift in Sources */,
+				6509A6F31C11981600ECB788 /* Contact.swift in Sources */,
+				65D2F4211C0EDEAA0098BDCB /* ContactPhotoViewCell.swift in Sources */,
+				65D523081C177ACC001481E3 /* LibaryCameraOptionViewController.swift in Sources */,
+				65D6F0BA1C0FB922007FC318 /* ContactInfoViewController.swift in Sources */,
+				65D2F41E1C0E49150098BDCB /* ContactListCollectionViewController.swift in Sources */,
+				65C47FE51C11112000500128 /* CustomizePhotoViewController.swift in Sources */,
+				65D523041C16D4D8001481E3 /* SlideShowViewController.swift in Sources */,
+				65C47FE71C11174B00500128 /* CheckBoxUIButton.swift in Sources */,
+				6509A6F01C11981600ECB788 /* ScheduleBlock+CoreDataProperties.swift in Sources */,
+				6509A6F21C11981600ECB788 /* Contact+CoreDataProperties.swift in Sources */,
+				65D2F4021C0E11640098BDCB /* AppDelegate.swift in Sources */,
+				651CAAC41C16833900EBCF4B /* AvailableContactsTableViewController.swift in Sources */,
+				65D2F41C1C0E1FA50098BDCB /* NewContactViewController.swift in Sources */,
+				65D523061C16DA38001481E3 /* SlideShowPageContentViewController.swift in Sources */,
+				6509A6F11C11981600ECB788 /* ScheduleBlock.swift in Sources */,
+				6509A6F51C11A27700ECB788 /* AddScheduleViewController.swift in Sources */,
+				65D2F40A1C0E11640098BDCB /* ScheduleSharer.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		65D2F4051C0E11640098BDCB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D2F4061C0E11640098BDCB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		65D2F40D1C0E11640098BDCB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				65D2F40E1C0E11640098BDCB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		65D2F4111C0E11640098BDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		65D2F4121C0E11640098BDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		65D2F4141C0E11640098BDCB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScheduleSharer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.billkwai.ScheduleSharer;
+				PRODUCT_NAME = "Schedule Sharer";
+			};
+			name = Debug;
+		};
+		65D2F4151C0E11640098BDCB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ScheduleSharer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.stanford.cs193p.billkwai.ScheduleSharer;
+				PRODUCT_NAME = "Schedule Sharer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		65D2F3F91C0E11640098BDCB /* Build configuration list for PBXProject "Schedule Sharer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D2F4111C0E11640098BDCB /* Debug */,
+				65D2F4121C0E11640098BDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		65D2F4131C0E11640098BDCB /* Build configuration list for PBXNativeTarget "Schedule Sharer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				65D2F4141C0E11640098BDCB /* Debug */,
+				65D2F4151C0E11640098BDCB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		65D2F4081C0E11640098BDCB /* ScheduleSharer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				65D2F4091C0E11640098BDCB /* ScheduleSharer.xcdatamodel */,
+			);
+			currentVersion = 65D2F4091C0E11640098BDCB /* ScheduleSharer.xcdatamodel */;
+			path = ScheduleSharer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 65D2F3F61C0E11640098BDCB /* Project object */;
+}
